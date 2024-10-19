@@ -1,31 +1,61 @@
 {
-  "name": "react-vite-ts",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "react-tailwind",
+  "version": "4.0.0",
+  "description": "Create React App with Tailwind CSS",
+  "license": "MIT",
+  "author": {
+    "name": "Amit Agarwal",
+    "email": "amit@labnol.org",
+    "url": "https://digitalinspiration.com/"
+  },
+  "private": false,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "tailwindui",
+    "create-react-app"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "not ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
-    "@types/react": "^18.2.65",
-    "@types/react-dom": "^18.2.21",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "10.4.19",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "postcss": "8.4.38",
-    "tailwindcss": "3.4.3",
-    "typescript": "^5.4.2",
-    "vite": "^5.1.6"
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
   }
 }
