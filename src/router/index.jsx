@@ -10,7 +10,7 @@ export default function AppRouter() {
   return (
     <Router basename="/">
       <Header />
-      <div className='mx-auto h-[calc(100%-56px)] w-full max-w-7xl overflow-auto bg-gray-100 px-4 mt-[56px]'>
+      <div className='mx-auto h-full w-full max-w-7xl overflow-auto bg-gray-100 px-4 pt-[56px]'>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/redux" Component={ReduxPage} />
