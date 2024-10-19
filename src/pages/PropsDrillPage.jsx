@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TodoPropDrill from '../components/todo/TodoPropDrill';
+import TodoPropDrill from '../components/todo/propDrill';
 
 export default function PropsDrillPage() {
   const [todos, setTodos] = useState([]);
